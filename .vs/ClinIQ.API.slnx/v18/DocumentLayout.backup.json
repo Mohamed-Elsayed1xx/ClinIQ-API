@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ClinIQ.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\validators\\appointmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\validators\\appointmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\cliniq.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\cliniq.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\dtos\\doctordtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\dtos\\doctordtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\dtos\\appointmentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\dtos\\appointmentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\migrations\\20260520015353_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\migrations\\20260520015353_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\migrations\\20260521103652_addnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\migrations\\20260521103652_addnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\migrations\\20260521100621_addreviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\migrations\\20260521100621_addreviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\migrations\\20260522085232_addmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\migrations\\20260522085232_addmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\migrations\\20260522083551_addtimeslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\migrations\\20260522083551_addtimeslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|d:\\cliniq.api\\cliniq.api\\migrations\\20260528214600_addrefreshtokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C56C1F-E9CA-19B4-A920-9B29B57A7929}|ClinIQ.API\\ClinIQ.API.csproj|solutionrelative:cliniq.api\\migrations\\20260528214600_addrefreshtokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\DoctorsController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T20:26:48.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthDTOs.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\DTOs\\AuthDTOs.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\DTOs\\AuthDTOs.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\DTOs\\AuthDTOs.cs",
+              "RelativeToolTip": "ClinIQ.API\\DTOs\\AuthDTOs.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:05:51.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Services\\AuthService.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Services\\AuthService.cs",
+              "RelativeToolTip": "ClinIQ.API\\Services\\AuthService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:03:51.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinIQ.API\\appsettings.json",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\appsettings.json",
+              "RelativeToolTip": "ClinIQ.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T01:43:30.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ClinIQ.API\\appsettings.Development.json",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\appsettings.Development.json",
+              "RelativeToolTip": "ClinIQ.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-21T22:07:08.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:06:53.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ClinIQ.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T01:42:23.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\RefreshToken.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:34:46.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20260528214600_AddRefreshTokens.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260528214600_AddRefreshTokens.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Migrations\\20260528214600_AddRefreshTokens.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260528214600_AddRefreshTokens.cs",
+              "RelativeToolTip": "ClinIQ.API\\Migrations\\20260528214600_AddRefreshTokens.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:46:00.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentValidator.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Validators\\AppointmentValidator.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Validators\\AppointmentValidator.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Validators\\AppointmentValidator.cs",
+              "RelativeToolTip": "ClinIQ.API\\Validators\\AppointmentValidator.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:30:32.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:00:35.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\Class.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Class.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:20:50.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClinIQ.API.csproj",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\ClinIQ.API.csproj",
+              "RelativeDocumentMoniker": "ClinIQ.API\\ClinIQ.API.csproj",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\ClinIQ.API.csproj",
+              "RelativeToolTip": "ClinIQ.API\\ClinIQ.API.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-20T01:41:25.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoctorDTOs.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\DTOs\\DoctorDTOs.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\DTOs\\DoctorDTOs.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\DTOs\\DoctorDTOs.cs",
+              "RelativeToolTip": "ClinIQ.API\\DTOs\\DoctorDTOs.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv0sAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:20:05.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\ScheduleController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAuwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:36:56.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\MedicalRecord.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:49:49.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MedicalRecordsController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\MedicalRecordsController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\MedicalRecordsController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\MedicalRecordsController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\MedicalRecordsController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:53:30.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20260522085232_AddMedicalRecords.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260522085232_AddMedicalRecords.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Migrations\\20260522085232_AddMedicalRecords.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260522085232_AddMedicalRecords.cs",
+              "RelativeToolTip": "ClinIQ.API\\Migrations\\20260522085232_AddMedicalRecords.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:52:32.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TimeSlot.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\TimeSlot.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\TimeSlot.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\TimeSlot.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\TimeSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:32:35.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20260522083551_AddTimeSlots.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260522083551_AddTimeSlots.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Migrations\\20260522083551_AddTimeSlots.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260522083551_AddTimeSlots.cs",
+              "RelativeToolTip": "ClinIQ.API\\Migrations\\20260522083551_AddTimeSlots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:35:51.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\Schedule.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Schedule.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\Schedule.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T01:39:51.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAIwMQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:24:47.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\Notification.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Notification.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:31:44.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20260521103652_AddNotifications.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260521103652_AddNotifications.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Migrations\\20260521103652_AddNotifications.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260521103652_AddNotifications.cs",
+              "RelativeToolTip": "ClinIQ.API\\Migrations\\20260521103652_AddNotifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:36:52.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\NotificationsController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAIwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:38:06.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Controllers\\ReviewsController.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "ClinIQ.API\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwFgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:07:38.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\Review.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Review.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:04:05.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260521100621_AddReviews.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260521100621_AddReviews.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Migrations\\20260521100621_AddReviews.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260521100621_AddReviews.cs",
+              "RelativeToolTip": "ClinIQ.API\\Migrations\\20260521100621_AddReviews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:06:21.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\Doctor.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Doctor.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\Doctor.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T21:11:43.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppointmentDTOs.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\DTOs\\AppointmentDTOs.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\DTOs\\AppointmentDTOs.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\DTOs\\AppointmentDTOs.cs",
+              "RelativeToolTip": "ClinIQ.API\\DTOs\\AppointmentDTOs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:23:43.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ClinIQ.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T08:06:02.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260520015353_InitialCreate.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260520015353_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Migrations\\20260520015353_InitialCreate.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Migrations\\20260520015353_InitialCreate.cs",
+              "RelativeToolTip": "ClinIQ.API\\Migrations\\20260520015353_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T01:53:53.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\Appointment.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\Appointment.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\Appointment.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T01:37:25.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ClinIQ.API\\Models\\User.cs",
+              "ToolTip": "D:\\ClinIQ.API\\ClinIQ.API\\Models\\User.cs",
+              "RelativeToolTip": "ClinIQ.API\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T21:10:31.597Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
