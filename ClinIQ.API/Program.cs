@@ -97,6 +97,7 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ClinIQ.API.Data.AppDbContext>();
+    await db.Database.MigrateAsync();
     await ClinIQ.API.Data.DbSeeder.SeedAsync(db);
 }
 
