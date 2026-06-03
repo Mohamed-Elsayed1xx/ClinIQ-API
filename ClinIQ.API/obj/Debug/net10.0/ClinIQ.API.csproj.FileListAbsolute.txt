@@ -124,6 +124,7 @@ D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\ClinIQ.API.AssemblyInfo.cs
 D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\ClinIQ.API.csproj.CoreCompileInputs.cache
 D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\ClinIQ.API.MvcApplicationPartsAssemblyInfo.cs
 D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\ClinIQ.API.MvcApplicationPartsAssemblyInfo.cache
+D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\ClinIQ.API.sourcelink.json
 D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\ClinIQ.API\ClinIQ.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinIQ.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c0fe4c8a095eff19b369181edcd56e5ff11ec6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinIQ.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinIQ.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
