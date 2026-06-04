@@ -1,4 +1,4 @@
-﻿using ClinIQ.API.Data;
+using ClinIQ.API.Data;
 using ClinIQ.API.DTOs;
 using ClinIQ.API.Models;
 using ClinIQ.API.Services;
@@ -15,11 +15,13 @@ namespace ClinIQ.API.Controllers
     {
         private readonly AppDbContext _context;
         private readonly AuthService _authService;
+        private readonly CloudinaryService _cloudinary;
 
-        public DoctorsController(AppDbContext context, AuthService authService)
+        public DoctorsController(AppDbContext context, AuthService authService, CloudinaryService cloudinary)
         {
             _context = context;
             _authService = authService;
+            _cloudinary = cloudinary;
         }
 
         // GET: api/Doctors
@@ -166,7 +168,6 @@ namespace ClinIQ.API.Controllers
 
             if (doctor == null) return NotFound(new { message = "Doctor not found" });
 
-            // Authorization check — Doctor يقدر يعدل profile نفسه بس
             var role = User.FindFirstValue(ClaimTypes.Role);
             if (role == Roles.Doctor)
             {
@@ -202,7 +203,6 @@ namespace ClinIQ.API.Controllers
             if (doctor == null)
                 return NotFound(new { message = "Doctor not found" });
 
-            // Authorization — Doctor يقدر يرفع لنفسه بس
             var role = User.FindFirstValue(ClaimTypes.Role);
             if (role == Roles.Doctor)
             {
@@ -211,7 +211,6 @@ namespace ClinIQ.API.Controllers
                     return Forbid();
             }
 
-            // Validate file
             if (file == null || file.Length == 0)
                 return BadRequest(new { message = "No file uploaded" });
 
@@ -219,34 +218,16 @@ namespace ClinIQ.API.Controllers
             if (!allowedTypes.Contains(file.ContentType.ToLower()))
                 return BadRequest(new { message = "Only JPEG, PNG, and WebP images are allowed" });
 
-            const long maxSize = 5 * 1024 * 1024; // 5MB
+            const long maxSize = 5 * 1024 * 1024;
             if (file.Length > maxSize)
                 return BadRequest(new { message = "File size must be less than 5MB" });
 
-            // Save to wwwroot/uploads/doctors/
-            var uploadsFolder = Path.Combine(
-                Directory.GetCurrentDirectory(), "wwwroot", "uploads", "doctors");
-            Directory.CreateDirectory(uploadsFolder);
-
-            // Delete old image if exists
+            // Delete old image from Cloudinary
             if (!string.IsNullOrEmpty(doctor.User.ProfileImage))
-            {
-                var oldFileName = Path.GetFileName(doctor.User.ProfileImage);
-                var oldPath = Path.Combine(uploadsFolder, oldFileName);
-                if (System.IO.File.Exists(oldPath))
-                    System.IO.File.Delete(oldPath);
-            }
+                await _cloudinary.DeleteImageAsync(doctor.User.ProfileImage);
 
-            // Generate unique filename
-            var ext = Path.GetExtension(file.FileName).ToLower();
-            var fileName = $"doctor-{id}-{Guid.NewGuid():N}{ext}";
-            var filePath = Path.Combine(uploadsFolder, fileName);
-
-            using (var stream = new FileStream(filePath, FileMode.Create))
-                await file.CopyToAsync(stream);
-
-            // Save relative URL in DB
-            var imageUrl = $"/uploads/doctors/{fileName}";
+            // Upload to Cloudinary
+            var imageUrl = await _cloudinary.UploadImageAsync(file, "cliniq/doctors");
             doctor.User.ProfileImage = imageUrl;
             await _context.SaveChangesAsync();
 
