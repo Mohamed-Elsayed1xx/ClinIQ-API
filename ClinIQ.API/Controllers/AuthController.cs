@@ -1,7 +1,11 @@
-﻿using ClinIQ.API.DTOs;
+using ClinIQ.API.Data;
+using ClinIQ.API.DTOs;
 using ClinIQ.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace ClinIQ.API.Controllers
 {
@@ -10,10 +14,14 @@ namespace ClinIQ.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AuthService _authService;
+        private readonly CloudinaryService _cloudinary;
+        private readonly AppDbContext _context;
 
-        public AuthController(AuthService authService)
+        public AuthController(AuthService authService, CloudinaryService cloudinary, AppDbContext context)
         {
             _authService = authService;
+            _cloudinary = cloudinary;
+            _context = context;
         }
 
         [HttpPost("register")]
@@ -101,6 +109,35 @@ namespace ClinIQ.API.Controllers
                 Role = user.Role,
                 UserId = user.Id
             });
+        }
+
+        [HttpPost("upload-image")]
+        [Authorize]
+        public async Task<IActionResult> UploadProfileImage(IFormFile file)
+        {
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null) return NotFound();
+
+            if (file == null || file.Length == 0)
+                return BadRequest(new { message = "No file uploaded" });
+
+            var allowedTypes = new[] { "image/jpeg", "image/png", "image/webp" };
+            if (!allowedTypes.Contains(file.ContentType.ToLower()))
+                return BadRequest(new { message = "Only JPEG, PNG, and WebP images are allowed" });
+
+            const long maxSize = 5 * 1024 * 1024;
+            if (file.Length > maxSize)
+                return BadRequest(new { message = "File size must be less than 5MB" });
+
+            if (!string.IsNullOrEmpty(user.ProfileImage))
+                await _cloudinary.DeleteImageAsync(user.ProfileImage);
+
+            var imageUrl = await _cloudinary.UploadImageAsync(file, "cliniq/users");
+            user.ProfileImage = imageUrl;
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Image uploaded successfully", imageUrl });
         }
     }
 }
